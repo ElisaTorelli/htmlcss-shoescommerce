@@ -1,0 +1,92 @@
+/* GENERAL SETTINGS */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.shoes-container{
+    margin: 40px auto;
+    width: 50%;
+}
+
+/* UTILITIES */
+
+h4{
+    text-transform: uppercase;
+}
+
+.tag{
+    color: white;
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.eco{
+    background-color: green;
+    left: 30%;
+    width: 40%;
+}
+
+.discount{
+    background-color: red;
+    width: 20%;
+}
+
+/* ADD TO FAVOURITEs BUTTON */
+.gray-hearth-button{
+    background-color: lightgray;
+    border-radius: 50%;
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    right: 40px;
+    text-align: center;
+    top: 40px;
+    width: 30px;
+}
+
+/* PRICES */
+.current-price{
+    color: red;
+    font-weight: bold;
+    width: 50%;
+}
+
+.original-price{
+    color: black;
+    text-decoration: line-through;
+}
+
+
+/* SHOES SECTION*/
+.shoe {
+    display: inline-block;
+    margin: 0 -2px;
+    position: relative;
+    width: calc(100% / 3);
+}
+
+.shoe:hover  .top-view{
+    display: block;
+    
+}
+
+.shoe img{
+    width: 100%;
+    
+}
+
+.top-view{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; 
+}
+
