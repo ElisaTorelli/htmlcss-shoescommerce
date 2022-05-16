@@ -39,7 +39,7 @@ h4{
     width: 20%;
 }
 
-/* ADD TO FAVOURITEs BUTTON */
+/* HEARTH ICON */
 .gray-hearth-button{
     background-color: lightgray;
     border-radius: 50%;
@@ -73,6 +73,7 @@ h4{
     width: calc(100% / 3);
 }
 
+/* WHEN CURSOR GOES HOVER AN IMAGE */
 .shoe:hover  .top-view{
     display: block;
     
@@ -89,4 +90,3 @@ h4{
     left: 0;
     display: none; 
 }
-
