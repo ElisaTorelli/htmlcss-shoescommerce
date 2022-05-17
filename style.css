@@ -37,7 +37,7 @@ h4{
 .discount{
     background-color: red;
     width: 20%;
-}
+} 
 
 /* HEARTH ICON */
 .gray-hearth-button{
@@ -71,7 +71,7 @@ h4{
     margin: 0 -2px;
     position: relative;
     width: calc(100% / 3);
-}
+} 
 
 /* WHEN CURSOR GOES HOVER AN IMAGE */
 .shoe:hover  .top-view{
@@ -89,4 +89,4 @@ h4{
     top: 0;
     left: 0;
     display: none; 
-}
+} 
